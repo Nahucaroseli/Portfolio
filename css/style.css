@@ -211,6 +211,34 @@ html::-webkit-scrollbar-thumb{
     height: 100%;
 }
 
+.skills{
+    margin-top: 20rem;
+    background:linear-gradient(90deg,rgb(98, 46, 165) 
+    17%,rgb(54, 29, 124) 100%,rgb(168, 61, 230) 
+    100%,rgb(22, 5, 119) 100%);
+}
+.skills .box-container{
+    margin-top: 15rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+
+.skills .box-container .box{
+    height: 25rem;
+    flex: 1 1 29rem;
+    border-radius: .5rem;
+    position: relative;
+    overflow: hidden;
+}
+
+.skills .box-container .box img{
+    height: 40%;
+    width: 100%;
+    object-fit: contain;
+}
+
+
 @media (max-width: 991px){
     html{
         font-size: 55%;
