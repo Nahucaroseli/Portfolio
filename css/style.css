@@ -153,13 +153,9 @@ html::-webkit-scrollbar-thumb{
     background: url(../images/home.jpg) no-repeat;
     min-height: 110vh;
     display: flex;
+    justify-content: center;
     align-items: center;
     background-size: cover;
-}
-
-.home .content{
-
-    max-width: 55rem;
 }
 
 .home .content h3{
@@ -172,13 +168,6 @@ html::-webkit-scrollbar-thumb{
 .home .content h3 span{
     color: var(--primary);
     text-transform: uppercase;
-}
-
-.home .content p{
-    font-size: 1.4rem;
-    color: var(--white);
-    padding: 1rem 0;
-    line-height: 2;
 }
 
 .about .row{
