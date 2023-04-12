@@ -216,18 +216,19 @@ html::-webkit-scrollbar-thumb{
     17%,rgb(54, 29, 124) 100%,rgb(168, 61, 230) 
     100%,rgb(22, 5, 119) 100%);
 }
-.skills .box-container{
+.skills .box-container,.projects .box-container{
     margin-top: 15rem;
     display: flex;
     flex-wrap: wrap;
     gap: 1.5rem;
 }
 
-.skills .box-container .box{
+.skills .box-container .box,.projects .box-container .box{
     height: 25rem;
     flex: 1 1 29rem;
     border-radius: .5rem;
     position: relative;
+    text-align: center;
     overflow: hidden;
 }
 
@@ -235,6 +236,17 @@ html::-webkit-scrollbar-thumb{
     height: 40%;
     width: 100%;
     object-fit: contain;
+}
+
+.projects .box-container .box img{
+    height: 70%;
+    width: 100%;
+    object-fit: contain;
+}
+
+.projects .box-container .box a{
+    font-size:x-large;
+    color: white;
 }
 
 
