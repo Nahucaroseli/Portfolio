@@ -232,6 +232,7 @@ html::-webkit-scrollbar-thumb{
     overflow: hidden;
 }
 
+
 .skills .box-container .box img{
     height: 40%;
     width: 100%;
@@ -243,6 +244,7 @@ html::-webkit-scrollbar-thumb{
     width: 100%;
     object-fit: contain;
 }
+
 
 .projects .box-container .box a{
     position: relative;
