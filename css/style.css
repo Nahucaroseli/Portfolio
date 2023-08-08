@@ -58,7 +58,7 @@ html::-webkit-scrollbar-thumb{
     font-size: 1.7rem;
     margin-top: 1rem;
     display: inline-block;
-    background: var(--primary);
+    background: #a33745;
     color: var(--white);
     box-shadow: var(--box-shadow);
     padding: .7rem 3rem;
@@ -233,7 +233,7 @@ html::-webkit-scrollbar-thumb{
     gap: 1.5rem;
 }
 
-.skills .box-container .box,.projects .box-container .box{
+.skills .box-container .box{
     height: 25rem;
     flex: 1 1 29rem;
     border-radius: .5rem;
@@ -249,23 +249,70 @@ html::-webkit-scrollbar-thumb{
     object-fit: contain;
 }
 
+.projects .box-container .box{
+
+    background-color: #6963631f;
+    height: 50rem;
+    width: 40rem;
+    border-radius: 15px;
+    position: relative;
+    overflow: hidden;
+}
+
+.projects .box-container .box:hover{
+   transform: scale(1.02);
+}
+
+
+
 .projects .box-container .box img{
+    margin-top: -18%;
     height: 70%;
     width: 100%;
     object-fit: contain;
+    border-radius: 30px;
 }
 
+
+.projects .box-container .box_buttons{
+    margin-top: 2rem;
+    display: flex;
+    gap: 1.5rem;
+}
 
 .projects .box-container .box a{
     position: relative;
-    background-color: var(--primary);
+    background-color: #a33745;
     border-radius: 10px;
     padding-left: 1.5rem;
     padding-right: 1.5rem;
-    top: 10%;
+    top: 5%;
+    left: 2rem;
     font-size:x-large;
     color: white;
 }
+
+.projects .box-container .box h1{
+    margin-top: -5rem;
+   font-size: 3rem;
+   margin-left: 2rem;
+}
+.projects .box-container .box h2{
+    margin-top: 2rem;
+    color: #9ca1a1;
+    font-size: 2rem;
+    margin-left: 2rem;
+
+ }
+
+ .projects .box-container .box h3{
+    color: #7f8080;
+    margin-left: 2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.5rem;
+ }
+
+ 
 
 .contact {
     margin-top: 15rem;
@@ -304,6 +351,10 @@ html::-webkit-scrollbar-thumb{
 }
 
 @media (max-width: 768px){
+
+    .projects .box-container {
+        justify-content: center;
+    }
 
     #menu{
         display: inline-block;
