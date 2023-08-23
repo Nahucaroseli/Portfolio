@@ -52,3 +52,5 @@ ScrollReveal().reveal('.contact form #label_2',{delay:150, origin:'left'});
 ScrollReveal().reveal('.contact form #input_2',{delay:150, origin:'right'});
 ScrollReveal().reveal('.contact form #label_3',{delay:150, origin:'left'});
 ScrollReveal().reveal('.contact form #input_3',{delay:150, origin:'right'});
+
+
