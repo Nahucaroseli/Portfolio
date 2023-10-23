@@ -76,9 +76,13 @@ html::-webkit-scrollbar-thumb{
     height: 100%;
     width: 0%;
     background: #d14b5d;
-    z-index: -1;
     transition: .3s linear;
+    z-index: -1;
+    
 }
+
+
+
 
 .btn::before{
     left: 0;
@@ -328,6 +332,12 @@ html::-webkit-scrollbar-thumb{
     margin-top: 6rem;
     font-size: x-large;
 }
+
+.contact form .message_sent{
+    display:none;
+    transition: 1s linear ease-in;
+}
+
 
 .contact form input, .contact form textarea{
     margin-top: 6rem;
