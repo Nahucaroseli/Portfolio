@@ -230,11 +230,19 @@ html::-webkit-scrollbar-thumb{
     17%,rgb(54, 29, 124) 100%,rgb(168, 61, 230) 
     100%,rgb(22, 5, 119) 100%);
 }
-.skills .box-container,.projects .box-container{
+.skills .box-container{
     margin-top: 15rem;
     display: flex;
     flex-wrap: wrap;
     gap: 1.5rem;
+}
+
+.projects .box-container{
+    justify-content: center;
+    margin-top: 15rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4rem;
 }
 
 .skills .box-container .box{
@@ -255,34 +263,33 @@ html::-webkit-scrollbar-thumb{
 
 .projects .box-container .box{
 
-    background-color: #6963631f;
-    height: 50rem;
+    background-color: #a39c9c1f;
+    height: 28rem;
     width: 40rem;
     border-radius: 15px;
     position: relative;
     overflow: hidden;
 }
+.projects .box-container a{
+
+    color: white;
+}
 
 .projects .box-container .box:hover{
-   transform: scale(1.02);
+   transform: scale(1.2);
+   cursor: pointer;
 }
 
 
 
 .projects .box-container .box img{
-    margin-top: -18%;
-    height: 70%;
+    margin-top: -10%;
+    height: 100%;
     width: 100%;
     object-fit: contain;
     border-radius: 30px;
 }
 
-
-.projects .box-container .box_buttons{
-    margin-top: 2rem;
-    display: flex;
-    gap: 1.5rem;
-}
 
 .projects .box-container .box a{
     position: relative;
@@ -297,24 +304,11 @@ html::-webkit-scrollbar-thumb{
 }
 
 .projects .box-container .box h1{
-    margin-top: -5rem;
+    text-align: center;
+    margin-top: -2rem;
    font-size: 3rem;
-   margin-left: 2rem;
 }
-.projects .box-container .box h2{
-    margin-top: 2rem;
-    color: #9ca1a1;
-    font-size: 2rem;
-    margin-left: 2rem;
 
- }
-
- .projects .box-container .box h3{
-    color: #7f8080;
-    margin-left: 2rem;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 1.5rem;
- }
 
  
 
