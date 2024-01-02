@@ -61,54 +61,6 @@ ScrollReveal().reveal('.contact form #input_3',{delay:150, origin:'right'});
 
 
 
-// Form script
-
-let form = document.querySelector("#form");
-
-const url = 'https://6536e637bb226bb85dd2b80d.mockapi.io/message/messages';
-
-
-form.addEventListener("submit", (e)=>{
-        e.preventDefault();
-        let messages = new FormData(form);
-        let nameform = messages.get("input_1");
-        let emailform = messages.get("input_2");
-        let messageform = messages.get("input_3");
-        let new_message = {
-            name:nameform,
-            email:emailform,
-            message:messageform
-            
-        }
-       
-        sendMessage(new_message);
-        let display_message = document.querySelector(".message_sent");
-        display_message.style.display = "block";
-})
-
-
-async function sendMessage(message){
-    const options = {
-        method: 'POST',
-        headers:{
-            'Content-type':'application/json'
-        },
-        body: JSON.stringify(message)
-    };
-
-
-    fetch(url,options).then(response =>{
-        if(response.ok){
-
-        }else{
-            throw new Error('Error');
-        }
-    }).catch(error =>{
-        console.error(error);
-    })
-
-}
-
 
 
 

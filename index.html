@@ -138,18 +138,19 @@
     <section class="contact" id="contact">
         <h1 class="heading">contact</h1>
 
-        <form id="form">
+        <form id="form" method="post" action="https://formsubmit.co/portfolioemailnahu@gmail.com">
             <h1 id="label_1">First Name and Last Name</h1>
-            <input type="text" name="input_1" required>
+            <input type="text" name="name" required>
             <br>
             <h1 id="label_2">Email</h1>
-            <input type="text" name="input_2" required>
+            <input type="text" name="email" required>
             <br>
             <h1 id="label_3">Message</h1>
-            <textarea name="input_3"></textarea required>
+            <textarea name="message"></textarea required>
             <br>
             <h1 class="message_sent">Mensaje Enviado!</h1>
-            <button class="btn">Send</button>
+            <button class="btn" type="submit">Send</button>
+            <input type="hidden" name="_captcha" value="false">
         </form>
     </section>
       <script src="https://unpkg.com/scrollreveal"></script>
