@@ -1,3 +1,28 @@
+document.addEventListener('DOMContentLoaded',()=>{
+
+
+
+// title animation
+let text = new SplitType('#main_title');
+let characters = document.querySelectorAll('.char');
+
+for(i = 0; i<characters.length; i++){
+    characters[i].classList.add('translate_y');
+}
+
+
+gsap.to('.char',{
+    y:0,
+    stagger:0.05,
+    delay:0.02,
+    duration:0.5
+})
+});
+
+
+
+
+
 
 // Navigation Tabs
 $(document).ready(function(){
@@ -58,7 +83,6 @@ ScrollReveal().reveal('.contact form #label_2',{delay:150, origin:'left'});
 ScrollReveal().reveal('.contact form #input_2',{delay:150, origin:'right'});
 ScrollReveal().reveal('.contact form #label_3',{delay:150, origin:'left'});
 ScrollReveal().reveal('.contact form #input_3',{delay:150, origin:'right'});
-
 
 
 
