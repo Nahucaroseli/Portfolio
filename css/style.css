@@ -247,7 +247,7 @@ html::-webkit-scrollbar-thumb{
 
 .skills .box-container .box{
     height: 25rem;
-    flex: 1 1 29rem;
+    flex: 1 1 18rem;
     border-radius: .5rem;
     position: relative;
     text-align: center;
@@ -256,7 +256,8 @@ html::-webkit-scrollbar-thumb{
 
 
 .skills .box-container .box img{
-    height: 40%;
+    height: 30%;
+    user-select: none;
     width: 100%;
     object-fit: contain;
 }
