@@ -2,7 +2,7 @@ document.addEventListener('DOMContentLoaded',()=>{
 
 
 
-// title animation
+// Title Animation
 let text = new SplitType('#main_title');
 let characters = document.querySelectorAll('.char');
 
@@ -63,7 +63,7 @@ $(document).ready(function(){
 })
 
 
-// Scroll animations
+// Scroll Animations
 
 ScrollReveal({
     reset:false,
