@@ -76,7 +76,7 @@ ScrollReveal().reveal('.about .row .content',{delay:200, origin:'left'});
 ScrollReveal().reveal('.about .row .image',{delay:200, origin:'right'});
 ScrollReveal().reveal('.skills .box-container .box', {delay:200, origin:'left'});
 ScrollReveal().reveal('.projects .box-container .box', {delay:200, origin:'bottom'});
-ScrollReveal().reveal('.projects .box-container .box', {scale:1.2});
+ScrollReveal().reveal('.projects .box-container .project_info', {delay:200, origin:'bottom'});
 ScrollReveal().reveal('.contact form #label_1',{delay:150, origin:'left'});
 ScrollReveal().reveal('.contact form #input_1',{delay:150, origin:'right'});
 ScrollReveal().reveal('.contact form #label_2',{delay:150, origin:'left'});
