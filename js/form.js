@@ -1,10 +1,10 @@
-emailjs.init('h0J-Tgyf05iAJctJ3');
+emailjs.init('8Bp9YlTNSZvTdjGmw');
 
     document.getElementById('form').addEventListener('submit', function (event) {
       event.preventDefault();
       
-      const serviceID = 'service_ymxyfrs';
-      const templateID = 'template_zhgvkxr';
+      const serviceID = 'service_nuym0gl';
+      const templateID = 'template_45d3wim';
 
       const name = document.getElementById("name");
       const message = document.getElementById("message");
