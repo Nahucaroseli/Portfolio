@@ -186,15 +186,15 @@
     <section class="contact" id="contact">
         <h1 class="heading">contact</h1>
 
-        <form id="form" method="post" action="https://formsubmit.co/portfolioemailnahu@gmail.com">
+        <form id="form">
             <h1 id="label_1">First Name and Last Name</h1>
-            <input type="text" name="name" required>
+            <input type="text" id="name" name="name" required>
             <br>
             <h1 id="label_2">Email</h1>
-            <input type="text" name="email" required>
+            <input type="text" id="email" name="email" required>
             <br>
             <h1 id="label_3">Message</h1>
-            <textarea name="message"></textarea required>
+            <textarea id="message"   name="message"></textarea required>
             <br>
             <h1 class="message_sent">Mensaje Enviado!</h1>
             <button class="btn" type="submit">Send</button>
@@ -221,5 +221,6 @@
       <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
       <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
       <script src="js/script.js"></script>
+      <script src="js/form.js"></script>
 </body>
 </html>

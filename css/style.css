@@ -17,9 +17,6 @@
 }
 
 body{
-    background:linear-gradient(90deg,rgb(49, 49, 49) 
-    17%,rgb(31, 24, 24) 100%,rgb(81, 42, 104) 
-    100%,rgb(34, 28, 77) 100%);
     color: var(--white);
 }
 
@@ -175,6 +172,14 @@ html::-webkit-scrollbar-thumb{
     text-transform: uppercase;
 }
 
+
+
+.about{
+    height: 70rem;
+    background:linear-gradient(90deg,rgb(0, 0, 0) 
+    17%,rgb(31, 24, 24) 100%,rgb(81, 42, 104) 
+    100%,rgb(34, 28, 77) 100%);
+}
 .about .row{
     display: flex;
     flex-wrap: wrap;
@@ -213,21 +218,23 @@ html::-webkit-scrollbar-thumb{
 }
 
 .about .row .image{
-    flex: 1 1 30rem;
+    flex: 1 1 15rem;
     margin-left: 20rem;
 }
 
 .about .row .image img{
     width: 80%;
-    height: 80%;
-    border-radius: 10px;
+    height: 50%;
+    border-radius: 50px;
 }
 .about .row .image img:hover{
    transform: scale(1.1);
 }
 
 .skills{
-    margin-top: 10rem;
+    background:linear-gradient(90deg,rgb(0, 0, 0) 
+    17%,rgb(31, 24, 24) 100%,rgb(81, 42, 104) 
+    100%,rgb(34, 28, 77) 100%);
 }
 .skills .box-container{
     margin-top: 15rem;
@@ -254,6 +261,12 @@ html::-webkit-scrollbar-thumb{
     user-select: none;
     width: 100%;
     object-fit: contain;
+}
+
+.projects{
+    background:linear-gradient(90deg,rgb(106, 65, 153) 
+    17%,rgb(31, 24, 24) 100%,rgb(81, 42, 104) 
+    100%,rgb(34, 28, 77) 100%);
 }
 
 .projects .box-container{
@@ -337,9 +350,11 @@ html::-webkit-scrollbar-thumb{
  
 
 .contact {
-    margin-top: 15rem;
     height: 100rem;
     text-align: center;
+    background:linear-gradient(90deg,rgb(106, 65, 153) 
+    17%,rgb(31, 24, 24) 100%,rgb(81, 42, 104) 
+    100%,rgb(34, 28, 77) 100%);
 }
 
 .contact form{
@@ -414,17 +429,23 @@ html::-webkit-scrollbar-thumb{
         font-size: 55%;
     }
 
-
-    .projects .box-container .project_info{
-
+    .about{
+        height: 100rem;
     }
+
+    .about .row .image img{
+        width: 75%;
+        height: 60%;
+        margin-left: 3rem;
+    }
+
+    
+
 }
 
 @media (max-width: 768px){
 
-    .projects .box-container {
-        justify-content: center;
-    }
+
 
     #menu{
         display: inline-block;
@@ -452,14 +473,24 @@ html::-webkit-scrollbar-thumb{
     .home .content h3{
         font-size: 5rem;
     }
+
+    
 }
 
 @media (max-width: 450px){
+
+    .about{
+        height: 78rem;
+    }
+
+
     html{
         font-size: 50%;
     }
     .home .content h3{
         font-size: 4rem;
     }
+
+
 
 }
